@@ -14,7 +14,7 @@ class SpringRestSeedController {
 
     @GetMapping("/")
     public String root() {
-        return "Hello, world! Add  /hello/there to the URL to get a friendly reply.";
+        return "Hello, world! Add /hello/there to the URL to get a friendly reply.";
     }
 
 }
